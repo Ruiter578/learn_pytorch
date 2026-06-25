@@ -1,6 +1,6 @@
 # Jupyter 与 VS Code 中 ipynb 运行机制说明
 
-本文以 `1-1,结构化数据建模流程范例.ipynb` 为例，说明 `.ipynb` 文件、Jupyter、VS Code Jupyter 插件、Python kernel、pip 安装和依赖环境之间的关系。
+本文以 `01-一、Pytorch的建模流程/1-1,结构化数据建模流程范例.ipynb` 为例，说明 `.ipynb` 文件、Jupyter、VS Code Jupyter 插件、Python kernel、pip 安装和依赖环境之间的关系。
 
 ## 1. `.ipynb` 文件是什么
 
@@ -195,7 +195,7 @@ Python (eat-pytorch)
 
 ## 9. 是否需要补装 torchvision
 
-对 `1-1,结构化数据建模流程范例.ipynb` 来说，不需要。
+对 `01-一、Pytorch的建模流程/1-1,结构化数据建模流程范例.ipynb` 来说，不需要。
 
 这个 notebook 是结构化数据建模示例，主要用：
 
@@ -206,7 +206,7 @@ Python (eat-pytorch)
 - torchkeras
 - tqdm
 
-`torchvision` 主要用于图像任务，包括图像数据集、图像 transforms、预训练视觉模型等。它更可能在 `1-2,图片数据建模流程范例.ipynb` 或图像相关章节中用到。
+`torchvision` 主要用于图像任务，包括图像数据集、图像 transforms、预训练视觉模型等。它更可能在 `01-一、Pytorch的建模流程/1-2,图片数据建模流程范例.ipynb` 或图像相关章节中用到。
 
 因此建议：
 
